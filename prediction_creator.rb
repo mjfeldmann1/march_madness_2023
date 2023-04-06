@@ -167,11 +167,11 @@ game59 = Game.new(parent_game_1: game53, parent_game_2: game54)
 # Fourth round - Midwest region
 game60 = Game.new(parent_game_1: game55, parent_game_2: game56)
 
-# West vs East champions
-game61 = Game.new(parent_game_1: game57, parent_game_2: game58)
+# West vs Midwest champions
+game61 = Game.new(parent_game_1: game57, parent_game_2: game60)
 
-# South vs Midwest champions
-game62 = Game.new(parent_game_1: game59, parent_game_2: game60)
+# South vs East champions
+game62 = Game.new(parent_game_1: game59, parent_game_2: game58)
 
 # Championship
 game63 = Game.new(parent_game_1: game61, parent_game_2: game62)
